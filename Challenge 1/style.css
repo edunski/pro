@@ -1,0 +1,112 @@
+.body{
+    background-image:url("/images/background.jpg") ;
+}
+.earth{
+    width: 15vw;
+    height: 15vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 7vw;
+}
+.maindiv{
+    text-align: center;
+}
+
+.line{
+    border-bottom: 7px solid grey;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    padding: 3vw;
+    padding-bottom: 0;
+    padding-left: 0;
+
+}
+.dot1{
+    height: 1.5vw;
+    width: 1.5vw;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.dot2{
+    height: 1.5vw;
+    width: 1.5vw;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 11.925vw;
+}
+
+.dot3{
+    height: 1.5vw;
+    width: 1.5vw;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 23.85vw;
+}
+
+.dot4{
+    height: 1.5vw;
+    width: 1.5vw;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 35.775vw;
+}
+
+.dot5{
+    height: 1.5vw;
+    width: 1.5vw;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 47.7vw;
+}
+
+.dotadd{
+    color: rgb(0, 247, 255);
+    font-family: sans-serif;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: rgb(61, 127, 153);
+    cursor: pointer;
+    color: black;
+  }
+
+
+.table1{
+    color: white;
+    background-color: rgb(255,255,255,0.2);
+    margin: auto;
+    margin-top: 5vw;
+}
+.tr{
+    border: 2px solid grey;
+    padding: 1vw;
+    font-family: sans-serif;
+}
+.tbtitle{
+    font-size: large;
+    font-weight: bold;
+}
+.heading{
+    height: 5vw;
+    width: auto;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 2vw;
+    padding-left: 8vw;
+}
+.center{
+    text-align: center;
+}
+
+
+
+

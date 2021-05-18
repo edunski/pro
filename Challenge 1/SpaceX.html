@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
+</head>
+<header class="center">
+    <img class="heading" src="/images/spacex.png" alt="">
+</header>
+<body class="body">
+    <div class="maindiv">
+        <img class="earth" src="/images/earth.png" alt="">
+        <img class="earth" src="/images/mars.png" alt="">
+    </div>
+
+    <div id="dots" class="line">
+        <div class="dot1"></div>
+        <a div class="dot2" id="dotb" onclick="dotb()"></a>
+        <a div class="dot3" id="dotc" onclick="dotc()"></a>
+        <a div class="dot4" id="dotd" onclick="dotd()"></a>
+        <a div class="dot5" id="dote" onclick="dote()"></a>
+    </div>
+    
+    <div>
+        <table class="table1">
+            <tr class="center">
+                <td class="tr tbtitle">SHIP'S PARAMETERS & ENVIRONMENT</td>
+                <td class="tr tbtitle">REMAINING SUPPLIES</td>
+                <td class="tr tbtitle">AMOUNT OF PEOPLE</td>
+            </tr>
+            <tr>
+                <td class="tr">Distance travelled: <span id="dtkm">0 km</span></td>
+                <td class="tr">Food: <span id="food">230</span>K kcal</td>
+                <td class="tr"><span id="persons">1</span> person(s)</td>
+            </tr>
+            <tr>
+                <td class="tr">Fuel left: <span id="fuel">52 920 gallons</span></td>
+                <td class="tr">Water: <span id="water">600</span> litres</td>
+                <td class="dotadd" onclick="dotaddpeople()">+ 1 Person</td>
+            </tr>    
+        </table>
+    </div>
+</body>
+</html>
